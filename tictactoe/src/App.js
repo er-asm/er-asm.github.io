@@ -4,7 +4,7 @@ import './styles/Square.style.css'
 const App = () => {
   return(
     <div className='app'>
-      <h1>TIC TAC TOE</h1>
+     <h1 data-text="TIC TAC TOE"><span>TIC TAC TOE</span></h1>
       <Board/>
     </div>
   );
